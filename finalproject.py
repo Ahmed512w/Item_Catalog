@@ -46,6 +46,7 @@ def validate(form):
     description = form['description'].strip()
     if len(name) > 3 and len(description) > 9:
         return True
+    flash("Name and Description fields  are required")
     return False
 
 
@@ -311,7 +312,7 @@ def newMenuItemWithCat(category_id):
     if 'username' not in login_session:
         return redirect('/login')
     catalog = session.query(Category).order_by(asc(Category.name))
-    if request.method == 'POST':
+    if request.method == 'POST' and validate(request.form):
         newItem = MenuItem(
           name=request.form['name'],
           description=request.form['description'],
