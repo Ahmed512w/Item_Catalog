@@ -1,12 +1,29 @@
 # Item Catalog App
+Building an application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.
 
-#  you should do:
-    1.Install Vagrant and VirtualBox
-    2.Clone the fullstack-nanodegree-vm
-    3.In the vagrant directory in your vm, run Git Bash
+## System setup
+This project makes use of Udacity's Linux-based virtual machine (VM) configuration which includes all of the necessary software to run the application.
+1. Download [Vagrant](https://www.vagrantup.com/downloads.html) and install.
+2. Download [Virtual Box](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1) and install. 
+3. Download the VM configuration file [FSND-Virtual-Machine.zip](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip).
+
+## System setup
+This project makes use of Udacity's Linux-based virtual machine (VM) configuration which includes all of the necessary software to run the application.
+    1.Download [Vagrant](https://www.vagrantup.com/downloads.html) and install.
+    2.Download [Virtual Box](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1) and install. 
+    3.Clone the fullstack-nanodegree-vm
+    
+    4.In the vagrant directory in your vm, run Git Bash
     4.run command "vagrant up"
     5.run command "vagrant ssh"
     6.run command "python finalproject.py"
+
+#### Run these commands from the terminal in the folder where your vagrant is installed in: 
+1. ```vagrant up``` to start up the VM.
+2. ```vagrant ssh``` to log into the VM.
+3. ```cd /vagrant``` to change to your vagrant directory.
+4. ```git clone https://github.com/Ahmed512w/Item_Catalog.git``` to Clone this repository 
+5. ```python finalproject.py``` to run the application.
 
 
 ### DB:
