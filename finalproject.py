@@ -370,7 +370,7 @@ def deleteMenuItem(menuitem_id):
         return redirect('/login')
 
     itemToDelete = session.query(MenuItem).filter_by(id=menuitem_id).one()
-    
+
     if request.method == 'POST':
         session.delete(itemToDelete)
         session.commit()
