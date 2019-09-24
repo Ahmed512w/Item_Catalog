@@ -9,10 +9,10 @@ This project makes use of Udacity's Linux-based virtual machine (VM) configurati
 
 ## System setup
 This project makes use of Udacity's Linux-based virtual machine (VM) configuration which includes all of the necessary software to run the application.
+
     1.Download [Vagrant](https://www.vagrantup.com/downloads.html) and install.
     2.Download [Virtual Box](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1) and install. 
     3.Clone the fullstack-nanodegree-vm
-    
     4.In the vagrant directory in your vm, run Git Bash
     4.run command "vagrant up"
     5.run command "vagrant ssh"
