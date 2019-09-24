@@ -1,26 +1,19 @@
 # Item Catalog App
-## Second Project - Nano Degree -1MAC - UDACITY
 
-# Pre-requisite:
-    -Git Bash(https://git-scm.com/downloads)
-    - Vagrant(https://www.vagrantup.com/)
-    - Download the VM configuration(https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/   5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip)
-    - Virtual Box(https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
-    - DB file: newsdata.sql(https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
-
-# Instructions:
-    - In the vagrant directory in your vm, run Git Bash
-    - run command "vagrant up"
-    - run command "vagrant ssh"
-    - run command "python project.py"
+#  you should do:
+    1.Install Vagrant and VirtualBox
+    2.Clone the fullstack-nanodegree-vm
+    3.In the vagrant directory in your vm, run Git Bash
+    4.run command "vagrant up"
+    5.run command "vagrant ssh"
+    6.run command "python finalproject.py"
 
 
 ### DB:
-    - database_setup.py has the classes for the database
-    - The DataBase has three tables: User / Category / MenuItem
+    - database_setup.py has the classes for the databas_tables: User / Category / MenuItem
 
 ### Routes & function in project.py
-    - routes and functions for login by facebook and google:
+    - routes and functions for login google:
         -- @app.route('/login/') - function showLogin() 
         -- @app.route('/gconnect', methods=['POST']) - function gconnect()
         -- @app.route('/disconnect') - function gdisconnect()
@@ -42,13 +35,19 @@
     - styles.css has the required css for the html files
 
 ### Templates Folder: html files:
-    - Public pages:
-        -- publiccatalog / publicmenu / publicmenuitem
-    - Loggedin pages:
-        - header / login / majn /nav
-        - catalog / menu / menuitem / newmenuitem / deletemenuitem / editmenuitem
+        - publiccatalog 
+        - publicmenu
+        - publicmenuitem
+        - header
+        - login 
+        - majn
+        - nav
+        - catalog
+        - menu 
+        - menuitem 
+        - newmenuitem 
+        - deletemenuitem
+        - editmenuitem
 
 ### Another files:
     - client_secrets.json: for the login processes with google
-
-# Code written with python 2 - DB is sqlite - Tested with firefox browser
