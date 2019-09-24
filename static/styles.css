@@ -156,9 +156,8 @@ h3 {
 }
 .flash {
 	background-color: #98FB98;
-	width:80%;
-	min-height: 50px;
-	line-height: 50px;
+	width:100%;
+	margin: 15px;
 	border-radius: 15px;
 	text-decoration: none;
 
