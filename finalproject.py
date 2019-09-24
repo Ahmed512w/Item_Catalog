@@ -45,7 +45,7 @@ def validate(form):
     description = form['description'].strip()
     if len(name) > 3 and len(description) > 9:
         return True
-    flash("Name and Description fields  are required")
+    flash("Name field and Description field are required")
     return False
 
 
