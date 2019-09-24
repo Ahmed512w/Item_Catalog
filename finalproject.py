@@ -5,8 +5,7 @@ from flask import (
     jsonify,
     url_for,
     flash,
-    session as login_session,
-
+    session as login_session
 )
 
 import random
